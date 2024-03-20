@@ -8,7 +8,7 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://leetcode.com/v4nshh/"
+        href="https://leetcode.com/Saaigokul/"
         target="_blank"
         className="home__social-icon"
       >
