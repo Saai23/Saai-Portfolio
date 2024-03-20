@@ -1,0 +1,75 @@
+.certificate__container {
+  width: 750px;
+}
+
+.certificate__card {
+  height: 100%;
+  background: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.2rem;
+  border-radius: 0.8rem;
+  margin-bottom: 3rem;
+  transform: scale(0.9) !important;
+  position: relative;
+  overflow: hidden;
+  margin: auto 0;
+}
+
+.certificate__img {
+  text-align: center !important;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.certificate__name__desc {
+  position: absolute;
+  bottom: 20px;
+  background: var(--title-color);
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  text-align: center;
+}
+
+.certificate__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-25);
+  color: #fff !important;
+}
+
+.certificate__description {
+  font-size: var(--small-font-size);
+}
+
+/* Swiper Class */
+.swiper-pagination-bullet {
+  background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--title-color) !important;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .certificate__container {
+    width: initial;
+  }
+
+  .certificate__card {
+    padding: 0.8rem 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
