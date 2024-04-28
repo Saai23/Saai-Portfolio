@@ -40,10 +40,10 @@ const Data = [
     name: "HTML",
     img: certi6,
   },
-  {
-    name: "Data Analysis with Python",
-    img: certi7,
-  },
+  // {
+  //   name: "Data Analysis with Python",
+  //   img: certi7,
+  // },
 ];
 
 const Cerifications = () => {
